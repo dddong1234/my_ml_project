@@ -1,11 +1,30 @@
-.venv/
-__pycache__/
-.ipynb_checkpoints/
-
+# data
 data/
-models/
-outputs/
 
+# predictions / submissions
+submissions/
+oof_preds/
+*.npy
 *.pkl
 *.joblib
-.env
+
+# csv outputs
+*.csv
+!logs/lb_log.csv
+
+# catboost
+catboost_info/
+
+# IDE
+.idea/
+.vscode/
+*.xml
+
+# notebooks cache
+.ipynb_checkpoints/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
